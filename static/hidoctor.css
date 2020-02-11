@@ -1,0 +1,51 @@
+﻿html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, code, sup,
+del, dfn, em, img, q, dl, dt, dd, ol, ul, li,
+fieldset, form, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: 'Segoe UI', 'Lucida Grande', Verdana, Arial, Helvetica, sans-serif !important;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+
+body {
+    font: 12px/1.7em "trebuchet ms", arial, sans-serif;
+}
+
+h1, h2, h3,
+h4, h5, h6 {
+    font-weight: bold;
+    margin-bottom: .75em;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: normal;
+    line-height: 1em;
+    margin-bottom: 1em;
+}
+
+.lastsubmit-refresh {
+    float: left;
+    margin-right: 10px;
+}
+
+#dvAsynMsg {
+    margin-top: 6px;
+}
+
+.ui-datepicker-year {
+    color: #000;
+}
+
+@media (min-width: 768px) {
+    .modal-dialog {
+        left:0px;
+    }
+}

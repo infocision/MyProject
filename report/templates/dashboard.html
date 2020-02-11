@@ -1,0 +1,938 @@
+<!DOCTYPE html>
+{% load static %}
+<html class="gr__hdreports_hidoctor_me">
+<!--<form action="http://127.0.0.1:8000/index/primary_sales/prm/" method="post">-->
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>INFOCISION - Dashboard</title>  
+    <link rel="stylesheet" href="{% static "D:/geo_master/static/fair_style.css" %}">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/4.4.0/bootbox.min.js"></script>   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/select2/3.5.2/select2.min.css">
+    <script src="https://cdn.jsdelivr.net/select2/3.5.2/select2.min.js"></script> 
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+        google.load('visualization', '1', { packages: ['charteditor', 'controls', 'corechart'] });
+    </script>
+    
+
+    <script src="./Dashboard-milindmalshe_files/saved_resource" type="text/javascript"></script>
+    <link href="./Dashboard-milindmalshe_files/ui+en,table+en,controls+en,charteditor+en.css" type="text/css" rel="stylesheet">
+    <script src="./Dashboard-milindmalshe_files/format+en,default+en,ui+en,table+en,orgchart+en,motionchart+en,gauge+en,annotatedtimeline+en,imagechart+en,controls+en,corechart+en,charteditor+en.I.js" type="text/javascript"></script>
+    <link href="{% static "D:/geo_master/static/orgchart.css" %}" rel="stylesheet" type="text/css">
+    <link href="{% static "D:/geo_master/static/annotatedtimeline.css" %}" rel="stylesheet" type="text/css"><link href="{% static "D:/geo_master/static/imagesparkline.css" %}" rel="stylesheet" type="text/css">
+   <link href=""{% static "D:/geo_master/static/tooltip.css" %}" rel="stylesheet" type="text/css">
+
+    <!--            height="100" width="250"-->
+<!--<script>-->
+
+<!--    function showgraph(month) {-->
+<!--        //alert(month.value);-->
+<!--        if(month.value == 3)-->
+<!--        {-->
+<!--            document.getElementById("GImg").src = "./media/m3dash.png";-->
+<!--            document.getElementById("pieImg").src = "./media/vellore3pie.png";-->
+<!--         }-->
+<!--        else if(month.value == 6)-->
+<!--        {-->
+<!--            document.getElementById("GImg").src = "./media/m6dash.png";-->
+<!--            document.getElementById("pieImg").src = "./media/vellore6pie.png";-->
+
+<!--        }-->
+
+<!--}-->
+<!--</script>-->
+
+</head>
+<body data-gr-c-s-loaded="true">
+ <form action="http://127.0.0.1:8000/prm/" method="post">
+
+
+    <div class="col-md-12" style="padding: 0px;">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> - HiDoctor Reports</title>
+ 
+    
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+     <!--fairshare<script src="./Dashboard-milindmalshe_files/jquery-ui.min.js"></script>
+    <script src="./Dashboard-milindmalshe_files/jquery.dynatree.js"></script>
+    <script src="./Dashboard-milindmalshe_files/jquery.ui-contextmenu.min.js"></script>
+    <script src="./Dashboard-milindmalshe_files/common12.7.0.js"></script>
+    <script src="./Dashboard-milindmalshe_files/ajaxHandler.js"></script>
+    
+    <link href="./Dashboard-milindmalshe_files/ui.dynatree.css" rel="stylesheet">
+
+    <script src="./Dashboard-milindmalshe_files/UserTree.js"></script>
+    <script src="./Dashboard-milindmalshe_files/RegionTree.js"></script>
+    <link href="./Dashboard-milindmalshe_files/Tree.css" rel="stylesheet">
+    
+    <script src="./Dashboard-milindmalshe_files/WebApiAjaxHandler.js"></script>
+    <script src="./Dashboard-milindmalshe_files/bootstrap.js"></script>
+    <script src="./Dashboard-milindmalshe_files/jquery.mtz.monthpicker.js"></script>
+    <link href="./Dashboard-milindmalshe_files/jquery.ui.core.css" rel="stylesheet">
+    <link href="./Dashboard-milindmalshe_files/jquery-ui-1.8.21.custom.css" rel="stylesheet">
+    <link href="./Dashboard-milindmalshe_files/bootstrap.min.css" rel="stylesheet">
+    <link href="./Dashboard-milindmalshe_files/jquery.ui.datepicker.css" rel="stylesheet">
+    <script src="./Dashboard-milindmalshe_files/bootstrap.min.js"></script>
+    <link href="./Dashboard-milindmalshe_files/hidoctor.css" rel="stylesheet">
+    <script src="./Dashboard-milindmalshe_files/bootbox.min.js"></script>
+    
+    <link rel="stylesheet" href="./Dashboard-milindmalshe_files/sweetalert.min.css">
+    <script src="./Dashboard-milindmalshe_files/sweetalert.min.js"></script> -->
+    <div class="col-md-12" style="padding: 0px;">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
+
+
+<div class="col-sm-12" style="padding:0px;">
+    <div class="col-sm-12" style="padding: 0px;border-bottom: 1px solid #ddd; background: #fff;height: 120px;">
+        <div class="col-sm-12" style="">
+            <div style="float: left;">
+                <img id="imglogo" style="margin: 5px;" src="{% static "D:/geo_master/static/media/shield.hidoctor.me.jpg" %}">
+
+
+            </div>
+
+            <div style="padding: 10px;text-align: right;">
+
+                <p style="font-size: 16px;" id="dvLogin">
+                    <img id="imglogo" style="margin: 1px;" src="{% static "D:/geo_master/static/media/Infocision-Logo.png" %}"></br>
+                   Welcome...{{ usr }}
+
+                <span style="font-size: 10px;">
+                    <a class="btn btn-info btn-link" href="#" id="registerLink">LOGOUT</a>
+                </span>
+            </p>
+                <br><span id="GroupBackButton" style="display:none;font-size: 12px;font-weight: 500;cursor:pointer"><i class="fa fa-sign-in" aria-hidden="true" id="icon"></i><a onclick="fngrouplogin()">Back to group login</a></span>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<div class="col-sm-12" style="padding:0px;" id="ulMenu">
+    <div id="myOverlay" class="myoverlay ">
+
+        <div class="myoverlay-content clearfix">
+
+            <input type="text" placeholder="Search.." id="searchallreports">
+            <button type="submit" onclick="Reportssearch()"><i class="fa fa-search"></i></button>
+            <span class="closebtn" onclick="closeSearch()" title="Close Overlay">X</span>
+
+        </div>
+        <div class="myoverlay-result clearfix">
+
+        </div>
+    </div>
+
+    <div style="left: 0px;float: right;position: relative;color: #fff;">
+
+        <ul id="powertreelink"></ul>
+
+
+    </div>
+    <div style="left: 0px;float: right;position: relative;color: #fff;">
+        <ul>
+            <li><button type="submit" style="float:right;font-size:25px;border: none;margin-top:5px; background-color: #800000;color:white;text-align:center" onclick="openSearch()"><i class="fa fa-search"></i></button></li>
+        </ul>
+    </div>
+
+    <ul class="main-navigation" id="ulMain">
+        <li><a href="#" id="Dashboardv2" style="font-size: 15px;">Dashboard</a></li>
+        <li>
+            <a href="#" style="font-size: 15px;">Primary Sales</a>
+            <!--<ul id="hdrptmnulist" style="padding-left: 0px;list-style-type: none;"><li id="R1" class="levelOne" style="width: 185px;text-align: center;font-size:12px"><a href="#" style="text-align:left !important">Sales</a></li><li id="R2" class="levelOne" style="width: 185px;text-align: center;font-size:12px"><a href="#" style="text-align:left !important">Activity</a></li><li id="R3" class="levelOne" style="width: 185px;text-align: center;font-size:12px"><a href="#" style="text-align:left !important">Master</a></li></ul>-->
+
+        </li>
+        <li>
+            <a href="#" style="font-size: 15px;">Secondary Sales</a>
+            <!--<ul id="hdrptrans" style="padding-left: 0px;list-style-type: none;"><li id="T1" class="report_levelOne" style="width: 185px;text-align: center;font-size:12px"><a href="#" style="font-size:12px;text-align:left !important">Expense</a></li><li id="T3" class="report_levelOne" style="width: 185px;text-align: center;font-size:12px"><a href="#" style="font-size:12px;text-align:left !important">Masters</a></li><li id="T6" class="report_levelOne" style="width: 185px;text-align: center;font-size:12px"><a href="#" style="font-size:12px;text-align:left !important">NG Reports</a></li></ul>-->
+
+        </li>
+        <li>
+            <a href="#" style="font-size: 15px;">Customer sales</a>
+            <!--<ul id="hdExcelrptmnulist" style="padding-left: 0px;list-style-type: none;"><li id="1" class="levelOnexlapi" style="width: 185px;text-align: left;font-size:12px"><a href="#">Activity</a></li><li id="3" class="levelOnexlapi" style="width: 185px;text-align: left;font-size:12px"><a href="#">Coverage / Compliance</a></li><li id="4" class="levelOnexlapi" style="width: 185px;text-align: left;font-size:12px"><a href="#">Joint Work</a></li><li id="5" class="levelOnexlapi" style="width: 185px;text-align: left;font-size:12px"><a href="#">Expense</a></li><li id="6" class="levelOnexlapi" style="width: 185px;text-align: left;font-size:12px"><a href="#">Tour Plan</a></li><li id="7" class="levelOnexlapi" style="width: 185px;text-align: left;font-size:12px"><a href="#">Promotional Inputs</a></li><li id="8" class="levelOnexlapi" style="width: 185px;text-align: left;font-size:12px"><a href="#">Marketing Campaign</a></li><li id="10" class="levelOnexlapi" style="width: 185px;text-align: left;font-size:12px"><a href="#">RCPA</a></li><li id="12" class="levelOnexlapi" style="width: 185px;text-align: left;font-size:12px"><a href="#">Masters - Doctor</a></li><li id="13" class="levelOnexlapi" style="width: 185px;text-align: left;font-size:12px"><a href="#">Masters - Chemist</a></li></ul>-->
+
+        </li>
+        <li>
+            <a href="#" style="font-size: 15px;">Activity</a>
+            <!--<ul id="hdAdHocRptmnulist" style="padding-left: 0px;list-style-type: none;"><li id="A1" class="levelOneAdHocapi" style="width: 185px;text-align: left;font-size:12px"><a href="#">Activity</a></li><li id="A2" class="levelOneAdHocapi" style="width: 185px;text-align: left;font-size:12px"><a href="#">Sales</a></li><li id="A3" class="levelOneAdHocapi" style="width: 185px;text-align: left;font-size:12px"><a href="#">Coverage / Compliance</a></li></ul>-->
+        </li>
+        <li>
+            <a href="#" style="font-size: 15px;">Marketing Campaigns</a>
+            <!--<ul id="hdAdHocRptmnulist" style="padding-left: 0px;list-style-type: none;"><li id="A1" class="levelOneAdHocapi" style="width: 185px;text-align: left;font-size:12px"><a href="#">Activity</a></li><li id="A2" class="levelOneAdHocapi" style="width: 185px;text-align: left;font-size:12px"><a href="#">Sales</a></li><li id="A3" class="levelOneAdHocapi" style="width: 185px;text-align: left;font-size:12px"><a href="#">Coverage / Compliance</a></li></ul>-->
+        </li>
+        <li>
+            <a href="#" style="font-size: 15px;">Compliance</a>
+            <!--<ul id="hdAdHocRptmnulist" style="padding-left: 0px;list-style-type: none;"><li id="A1" class="levelOneAdHocapi" style="width: 185px;text-align: left;font-size:12px"><a href="#">Activity</a></li><li id="A2" class="levelOneAdHocapi" style="width: 185px;text-align: left;font-size:12px"><a href="#">Sales</a></li><li id="A3" class="levelOneAdHocapi" style="width: 185px;text-align: left;font-size:12px"><a href="#">Coverage / Compliance</a></li></ul>-->
+        </li>
+
+
+
+
+    </ul>
+    <input type="hidden" id="hdnUserCode" value="USC00001282">
+
+</div>
+<!--fairshare obo user div -->
+<!--filter menu start -->
+<!--        <form action="http://127.0.0.1:8000/prm/" method="post">-->
+<div id="newheading" class="col-md-12 col-sm-12 clearfix secondheader">
+<center>
+     <div class="col-sm-3 col-xs-3" style="text-align:right;">
+                                        <span style="color:white;margin-right: 8px;">Division:</span>
+                                        <select id="ddlDrCoverage" class="dropdown" style="color: blue; width: 90px; height: 27px;">undefined
+                                            <!--option selected="selected" data-division_code="All">--All--</option>
+                                            <option data-division_code="10">Genesia</option>-->
+                                            <option data-division_code="DIV00000001">EVACARE</option>
+                                        </select>
+                                    </div>
+    <div class="col-sm-3 col-xs-3" style="text-align:right;">
+                                        <span style="color:white;margin-right: 8px; ">Region:</span>
+                                        <select id="ddlDrCoverage" class="dropdown" style="color: blue; width: 90px; height: 27px;">undefined
+<!--                                            <option selected="selected" data-division_code="All">&#45;&#45;All&#45;&#45;</option>-->
+                                            <option selected="selected" data-division_code="All">Chennai RBM </option>
+                                            <option data-division_code="10">CUDDALORE</option>
+                                            <option data-division_code="DIV00000001">Vellore</option>
+                                            <option data-division_code="All">PONDICHERRY</option>
+<!--                                            <option data-division_code="All">TAMBARAM</option>-->
+<!--                                            <option data-division_code="10">T NAGAR</option>-->
+<!--                                            <option data-division_code="DIV00000001">Anna Nagar</option>-->
+<!--                                            <option data-division_code="All">NORTH CHENNAI</option>-->
+<!--                                            <option data-division_code="10">AMBATTUR1</option>-->
+                                        </select>
+                                    </div>
+
+    <div id="showmonths" class="col-sm-3 col-xs-3">
+                                        <span style="color:white;padding: 0px 10px 0px 0px;">Period:</span>
+                                        <select id="selectedmonth" onchange=showgraph(this);>
+                                            <option value="12">12 Month</option>
+                                            <option value="9">9 Month</option>
+                                            <option value="6" >6 Month</option>
+                                            <option value="3" selected="selected">3 Month</option>
+                                        </select>
+                                    </div>
+    <div id="showmonths" class="col-sm-3 col-xs-3">
+                                       <button type="button" class="btn btn-light">Go</button>
+
+                                    </div>
+</center>
+                                    
+                                </div>
+
+
+<!--filter menu end -->
+</div>
+<div id="main">
+
+    
+    <div class="col-md-12" style="padding: 0px;">
+        
+
+<script>
+    //$("link[href='/Content/hidoctor/hidoctor.css']").remove();
+</script>
+
+<link rel="stylesheet" href="{% static "D:/geo_master/static/material.css" %}">
+<link rel="stylesheet" href="{% static "D:/geo_master/static/Customej2Styles.css" %}">
+
+
+<div class="dash-content-wrapper">
+
+    <div class="cls-dash-content">
+        <div>
+            <div class="row" id="draggable">
+                <div class="col-sm-12 clearfix" style="margin-bottom: 10px;">
+                    <div class="col-lg-6 col-sm-12" id="dvDrCoverage" style="padding-right:0px">
+                        <div class="col-sm-12 clearfix" style="padding:0px;">
+                            <div class="panel cls-cat-cov-main cls-common-head" style="height: 427px;">
+
+                                <div class="panel-heading ddlPS">
+                                    <div class="col-sm-6 col-xs-6" style="padding: 0px;">
+                                        <i class="fa fa-user-md title-i"></i>
+                                        <label id="CovDoctor" style="font-size:12px;">Sales By Value</label>
+                                    </div>
+                                    <!--div class="col-sm-5 col-xs-5" style="text-align:right;text-decoration: underline;cursor: pointer;" id="coveragechoose">
+                                        <label style="text-decoration: underline;cursor: pointer;">Choose Your Filter </label>
+                                    </div>
+                                    <div class="col-sm-1 col-xs-1">
+                                        <i class="fa fa-info-circle information" id="CoverageInfo" aria-hidden="true"></i>
+                                    </div-->
+                                </div>
+                                <!--div id="newheading" class="col-sm-12 clearfix secondheader">
+                                    <div id="showmonths" class="col-sm-4 col-xs-4">
+                                        <span style="color:white;padding: 0px 10px 0px 0px;">Period:</span>
+                                        <select id="selectedmonth" onchange=showgraph(this);>
+                                            <option value="12">12 Month</option>
+                                            <option value="9">9 Month</option>
+                                            <option value="6" selected="selected">6 Month</option>
+                                            <option value="3">3 Month</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-sm-4 col-xs-4" style="text-align:right;">
+                                        <span style="color:white;margin-right: 8px; ">Region:</span>
+                                        <select id="ddlDrCoverage" class="dropdown" style="color: blue; width: 90px; height: 27px;">undefined<option selected="selected" data-division_code="All">--All--</option><option data-division_code="10">Genesia</option><option data-division_code="DIV00000001">EVACARE</option></select>
+                                    </div>
+                                    <div class="col-sm-4 col-xs-4" style="text-align:right;">
+                                        <span style="color:white;margin-right: 8px;">Division:</span>
+                                        <select id="ddlDrCoverage" class="dropdown" style="color: blue; width: 90px; height: 27px;">undefined<option selected="selected" data-division_code="All">--All--</option><option data-division_code="10">Genesia</option><option data-division_code="DIV00000001">EVACARE</option></select>
+                                    </div>
+                                    
+                                </div-->
+                                <center >
+                                    <img id="GImg" src="{% static "D:/geo_master/static/chennairbm.png" %}" style="padding-top: 80px;">
+
+<!--                                    <img id="GImg" src="{% static "D:/geo_master/static/m3dash.png" %}" style="padding:80px;" >-->
+
+<!--                                   <img id="GImg" src="./media/m3dash." style="padding:80px;" >-->
+<!--                                    graph 1-->
+                                </center>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-sm-12" id="dvDrCompliance" style="padding-right:0px">
+                        <div class="panel cls-cat-cov-main cls-common-head" style="height: 427px;">
+
+                            <div class="panel-heading ddlPS">
+                                <div class="col-sm-7 col-xs-7" style="padding: 0px;">
+                                    <i class="fa fa-user-md title-i"></i>
+                                    <label id="ComDoctor" style="font-size:12px;">% Sale of the Product</label>
+                                </div>
+                                <!--div class="col-sm-4 col-xs-4" style="text-align:right;cursor: pointer;text-decoration: underline;" id="compliancechoose">
+                                    <label style="text-decoration: underline;cursor: pointer;"> Choose Your Filter </label>
+                                </div>
+                                <div class="col-sm-1 col-xs-1">
+                                    <i class="fa fa-info-circle information" id="ComplianceInfo" aria-hidden="true"></i>
+                                </div-->
+
+                            </div>
+                                <!--div id="newheading" class="col-sm-12 clearfix secondheader">
+                                    <div id="showmonths" class="col-sm-4 col-xs-4">
+                                        <span style="color:white;padding: 0px 10px 0px 0px;">Period:</span>
+                                        <select id="selectedmonth">
+                                            <option value="12">12 Month</option>
+                                            <option value="9">9 Month</option>
+                                            <option value="6" selected="selected">6 Month</option>
+                                            <option value="3">3 Month</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-sm-4 col-xs-4" style="text-align:right;">
+                                        <span style="color:white;margin-right: 8px; ">Region:</span>
+                                        <select id="ddlDrCoverage" class="dropdown" style="color: blue; width: 90px; height: 27px;">undefined<option selected="selected" data-division_code="All">--All--</option><option data-division_code="10">Genesia</option><option data-division_code="DIV00000001">EVACARE</option></select>
+                                    </div>
+                                    <div class="col-sm-4 col-xs-4" style="text-align:right;">
+                                        <span style="color:white;margin-right: 8px;">Division:</span>
+                                        <select id="ddlDrCoverage" class="dropdown" style="color: blue; width: 90px; height: 27px;">undefined<option selected="selected" data-division_code="All">--All--</option><option data-division_code="10">Genesia</option><option data-division_code="DIV00000001">EVACARE</option></select>
+                                    </div>
+                                    
+                                </div-->
+                            <center>
+                                 <img id="GImg" src="{% static "D:/geo_master/static/chennai3rbm.png" %}" style="padding-top: 10px;" >
+<!--                                 <img id="pieImg" src="{% static "D:/geo_master/static/chennai3rbm.png.png" %}" >-->
+
+
+<!--                                GRAPH 2-->
+
+                            </center>
+                        </div>
+                    </div>
+                <div class="col-lg-6 col-sm-12" id="dvDrCompliance" style="padding-right:0px">
+                        <div class="panel cls-cat-cov-main cls-common-head" style="height: 427px;">
+
+                            <div class="panel-heading ddlPS">
+                                <div class="col-sm-7 col-xs-7" style="padding: 0px;">
+                                    <i class="fa fa-user-md title-i"></i>
+                                    <label id="ComDoctor" style="font-size:12px;">Product wise Sales by Value</label>
+                                </div>
+                                <!--div class="col-sm-4 col-xs-4" style="text-align:right;cursor: pointer;text-decoration: underline;" id="compliancechoose">
+                                    <label style="text-decoration: underline;cursor: pointer;"> Choose Your Filter </label>
+                                </div>
+                                <div class="col-sm-1 col-xs-1">
+                                    <i class="fa fa-info-circle information" id="ComplianceInfo" aria-hidden="true"></i>
+                                </div-->
+
+                            </div>
+                            <!--div id="newheading" class="col-sm-12 clearfix secondheader">
+                                    <div id="showmonths" class="col-sm-4 col-xs-4">
+                                        <span style="color:white;padding: 0px 10px 0px 0px;">Period:</span>
+                                        <select id="selectedmonth">
+                                            <option value="12">12 Month</option>
+                                            <option value="9">9 Month</option>
+                                            <option value="6" selected="selected">6 Month</option>
+                                            <option value="3">3 Month</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-sm-4 col-xs-4" style="text-align:right;">
+                                        <span style="color:white;margin-right: 8px; ">Region:</span>
+                                        <select id="ddlDrCoverage" class="dropdown" style="color: blue; width: 90px; height: 27px;">undefined<option selected="selected" data-division_code="All">--All--</option><option data-division_code="10">Genesia</option><option data-division_code="DIV00000001">EVACARE</option></select>
+                                    </div>
+                                    <div class="col-sm-4 col-xs-4" style="text-align:right;">
+                                        <span style="color:white;margin-right: 8px;">Division:</span>
+                                        <select id="ddlDrCoverage" class="dropdown" style="color: blue; width: 90px; height: 27px;">undefined<option selected="selected" data-division_code="All">--All--</option><option data-division_code="10">Genesia</option><option data-division_code="DIV00000001">EVACARE</option></select>
+                                    </div>
+                                    
+                                </div-->
+                            <center>
+<!--                                <img id="pieImg" src="{% static "D:/geo_master/static/ Product wise Sales by Value.png" %}" >-->
+                                <img id="GImg" src="{% static "D:/geo_master/static/Product wise Sales by Value.png" %}" style="padding-top: 10px;" >
+<!--                                GRAPH 3-->
+                            </center>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-12" id="dvDrCompliance" style="padding-right:0px">
+                        <div class="panel cls-cat-cov-main cls-common-head" style="height: 427px;">
+
+                            <div class="panel-heading ddlPS">
+                                <div class="col-sm-7 col-xs-7" style="padding: 0px;">
+                                    <i class="fa fa-user-md title-i"></i>
+                                    <label id="ComDoctor" style="font-size:12px;">Target Vs Primary Value</label>
+                                </div>
+                                <!--div class="col-sm-4 col-xs-4" style="text-align:right;cursor: pointer;text-decoration: underline;" id="compliancechoose">
+                                    <label style="text-decoration: underline;cursor: pointer;"> Choose Your Filter </label>
+                                </div>
+                                <div class="col-sm-1 col-xs-1">
+                                    <i class="fa fa-info-circle information" id="ComplianceInfo" aria-hidden="true"></i>
+                                </div-->
+
+                            </div>
+                                <!--div id="newheading" class="col-sm-12 clearfix secondheader">
+                                    <div id="showmonths" class="col-sm-4 col-xs-4">
+                                        <span style="color:white;padding: 0px 10px 0px 0px;">Period:</span>
+                                        <select id="selectedmonth">
+                                            <option value="12">12 Month</option>
+                                            <option value="9">9 Month</option>
+                                            <option value="6" selected="selected">6 Month</option>
+                                            <option value="3">3 Month</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-sm-4 col-xs-4" style="text-align:right;">
+                                        <span style="color:white;margin-right: 8px; ">Region:</span>
+                                        <select id="ddlDrCoverage" class="dropdown" style="color: blue; width: 90px; height: 27px;">undefined<option selected="selected" data-division_code="All">--All--</option><option data-division_code="10">Genesia</option><option data-division_code="DIV00000001">EVACARE</option></select>
+                                    </div>
+                                    <div class="col-sm-4 col-xs-4" style="text-align:right;">
+                                        <span style="color:white;margin-right: 8px;">Division:</span>
+                                        <select id="ddlDrCoverage" class="dropdown" style="color: blue; width: 90px; height: 27px;">undefined<option selected="selected" data-division_code="All">--All--</option><option data-division_code="10">Genesia</option><option data-division_code="DIV00000001">EVACARE</option></select>
+                                    </div>
+                                    
+                                </div-->
+                            <center>
+                                <img id="GImg" src="{% static "D:/geo_master/static/Target Vs Primary Value.png" %}" style="padding-top: 10px;">
+<!--                                GRAPH 4-->
+                            </center>
+                        </div>
+                    </div>
+            </div>
+            <div class="col-sm-12 clearfix" style="margin-top: 0px;">
+                    <div class="col-lg-12 col-sm-12" id="CallavergeDr" style="padding-right:0px">
+                        <div class="panel cls-call-cov-line cls-common-head">
+                            <div class="panel-heading" style="padding: 7px 15px;">
+                                <div class="col-xs-12 clearfix" style="padding:0px;">
+                                    <div class="col-xs-1" style="right: 13px;"><i class="fa fa-line-chart title-i" style="font-size: 20px;"></i></div>
+                                    <div class="col-xs-4" id="callalinement" style="right: 27px;font-size:14px;top:2px;">
+                                        <label>YTD Comparision Values</label>
+                                    </div>
+                                    <!--div class="col-xs-6" style="text-align:right;">
+                                        <label id="callaverageFilter" style="text-decoration: underline;cursor: pointer;color:white;"> Choose Your Filter </label>
+                                    
+                                    </div>
+                                    <div class="col-sm-1">
+                                        <i class="fa fa-info-circle information" id="callAvgInfo" aria-hidden="true" style="margin-top: 3px;"></i>
+                                    </div-->
+                                </div>
+                            </div>
+                          <!--div id="newheading" class="col-sm-12 clearfix secondheader">
+                                    <div id="showmonths" class="col-sm-4 col-xs-4">
+                                        <span style="color:white;padding: 0px 10px 0px 0px;">Period:</span>
+                                        <select id="selectedmonth">
+                                            <option value="12">12 Month</option>
+                                            <option value="9">9 Month</option>
+                                            <option value="6" selected="selected">6 Month</option>
+                                            <option value="3">3 Month</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-sm-4 col-xs-4" style="text-align:right;">
+                                        <span style="color:white;margin-right: 8px; ">Region:</span>
+                                        <select id="ddlDrCoverage" class="dropdown" style="color: blue; width: 90px; height: 27px;">undefined<option selected="selected" data-division_code="All">--All--</option><option data-division_code="10">Genesia</option><option data-division_code="DIV00000001">EVACARE</option></select>
+                                    </div>
+                                    <div class="col-sm-4 col-xs-4" style="text-align:right;">
+                                        <span style="color:white;margin-right: 8px;">Division:</span>
+                                        <select id="ddlDrCoverage" class="dropdown" style="color: blue; width: 90px; height: 27px;">undefined<option selected="selected" data-division_code="All">--All--</option><option data-division_code="10">Genesia</option><option data-division_code="DIV00000001">EVACARE</option></select>
+                                    </div>
+                                    
+                                </div-->
+                            <center>
+                                <img id="GImg" src="{% static "D:/geo_master/static/YTD Comparision Values.png" %}" style="padding-top: 10px;">
+<!--                                GRAPH 5-->
+                            </center>
+
+                            </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 clearfix" style="margin-top: 0px;">
+                    <div class="col-lg-12 col-sm-12" id="CallavergeDr" style="padding-right:0px">
+                        <div class="panel cls-call-cov-line cls-common-head">
+                            <div class="panel-heading" style="padding: 7px 15px;">
+                                <div class="col-xs-12 clearfix" style="padding:0px;">
+                                    <div class="col-xs-1" style="right: 13px;"><i class="fa fa-line-chart title-i" style="font-size: 20px;"></i></div>
+                                    <div class="col-xs-4" id="callalinement" style="right: 27px;font-size:14px;top:2px;">
+                                        <label>As on date for all months period (Value)</label>
+                                    </div>
+                                    <!--div class="col-xs-6" style="text-align:right;">
+                                        <label id="callaverageFilter" style="text-decoration: underline;cursor: pointer;color:white;"> Choose Your Filter </label>
+                                    
+                                    </div>
+                                    <div class="col-sm-1">
+                                        <i class="fa fa-info-circle information" id="callAvgInfo" aria-hidden="true" style="margin-top: 3px;"></i>
+                                    </div-->
+                                </div>
+                            </div>
+                          <!--div id="newheading" class="col-sm-12 clearfix secondheader">
+                                    <div id="showmonths" class="col-sm-4 col-xs-4">
+                                        <span style="color:white;padding: 0px 10px 0px 0px;">Period:</span>
+                                        <select id="selectedmonth">
+                                            <option value="12">12 Month</option>
+                                            <option value="9">9 Month</option>
+                                            <option value="6" selected="selected">6 Month</option>
+                                            <option value="3">3 Month</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-sm-4 col-xs-4" style="text-align:right;">
+                                        <span style="color:white;margin-right: 8px; ">Region:</span>
+                                        <select id="ddlDrCoverage" class="dropdown" style="color: blue; width: 90px; height: 27px;">undefined<option selected="selected" data-division_code="All">--All--</option><option data-division_code="10">Genesia</option><option data-division_code="DIV00000001">EVACARE</option></select>
+                                    </div>
+                                    <div class="col-sm-4 col-xs-4" style="text-align:right;">
+                                        <span style="color:white;margin-right: 8px;">Division:</span>
+                                        <select id="ddlDrCoverage" class="dropdown" style="color: blue; width: 90px; height: 27px;">undefined<option selected="selected" data-division_code="All">--All--</option><option data-division_code="10">Genesia</option><option data-division_code="DIV00000001">EVACARE</option></select>
+                                    </div>
+                                    
+                                </div-->
+                            <center>
+<!--                                GRAPH 6-->
+                                <img id="GImg" src="{% static "D:/geo_master/static/As on date for all months period (Value).png" %}" style="padding-top: 10px;" >
+                            </center>
+
+                            </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 clearfix" style="margin-top: 0px;">
+                    <div class="col-lg-12 col-sm-12" id="CallavergeDr" style="padding-right:0px">
+                        <div class="panel cls-call-cov-line cls-common-head">
+                            <div class="panel-heading" style="padding: 7px 15px;">
+                                <div class="col-xs-12 clearfix" style="padding:0px;">
+                                    <div class="col-xs-1" style="right: 13px;"><i class="fa fa-line-chart title-i" style="font-size: 20px;"></i></div>
+                                    <div class="col-xs-4" id="callalinement" style="right: 27px;font-size:14px;top:2px;">
+                                        <label>As on date for all months period</label>
+                                    </div>
+                                    <!--div class="col-xs-6" style="text-align:right;">
+                                        <label id="callaverageFilter" style="text-decoration: underline;cursor: pointer;color:white;"> Choose Your Filter </label>
+                                    
+                                    </div>
+                                    <div class="col-sm-1">
+                                        <i class="fa fa-info-circle information" id="callAvgInfo" aria-hidden="true" style="margin-top: 3px;"></i>
+                                    </div-->
+                                </div>
+                            </div>
+                          <!--div id="newheading" class="col-sm-12 clearfix secondheader">
+                                    <div id="showmonths" class="col-sm-4 col-xs-4">
+                                        <span style="color:white;padding: 0px 10px 0px 0px;">Period:</span>
+                                        <select id="selectedmonth">
+                                            <option value="12">12 Month</option>
+                                            <option value="9">9 Month</option>
+                                            <option value="6" selected="selected">6 Month</option>
+                                            <option value="3">3 Month</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-sm-4 col-xs-4" style="text-align:right;">
+                                        <span style="color:white;margin-right: 8px; ">Region:</span>
+                                        <select id="ddlDrCoverage" class="dropdown" style="color: blue; width: 90px; height: 27px;">undefined<option selected="selected" data-division_code="All">--All--</option><option data-division_code="10">Genesia</option><option data-division_code="DIV00000001">EVACARE</option></select>
+                                    </div>
+                                    <div class="col-sm-4 col-xs-4" style="text-align:right;">
+                                        <span style="color:white;margin-right: 8px;">Division:</span>
+                                        <select id="ddlDrCoverage" class="dropdown" style="color: blue; width: 90px; height: 27px;">undefined<option selected="selected" data-division_code="All">--All--</option><option data-division_code="10">Genesia</option><option data-division_code="DIV00000001">EVACARE</option></select>
+                                    </div>
+                                    
+                                </div-->
+                            <center>
+<!--                                GRAPH 7-->
+                                <img id="GImg" src="{% static "D:/geo_master/static/As on date for all months period.png" %}" style="padding-top: 10px;">
+
+                            </center>
+
+                            </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 clearfix" style="margin-top: 0px;">
+                    <div class="col-lg-12 col-sm-12" id="CallavergeDr" style="padding-right:0px">
+                        <div class="panel cls-call-cov-line cls-common-head">
+                            <div class="panel-heading" style="padding: 7px 15px;">
+                                <div class="col-xs-12 clearfix" style="padding:0px;">
+                                    <div class="col-xs-1" style="right: 13px;"><i class="fa fa-line-chart title-i" style="font-size: 20px;"></i></div>
+                                    <div class="col-xs-4" id="callalinement" style="right: 27px;font-size:14px;top:2px;">
+                                        <label>Primary Vs Secondary (Units / Value)</label>
+                                    </div>
+                                    <!--div class="col-xs-6" style="text-align:right;">
+                                        <label id="callaverageFilter" style="text-decoration: underline;cursor: pointer;color:white;"> Choose Your Filter </label>
+                                    
+                                    </div>
+                                    <div class="col-sm-1">
+                                        <i class="fa fa-info-circle information" id="callAvgInfo" aria-hidden="true" style="margin-top: 3px;"></i>
+                                    </div-->
+                                </div>
+                            </div>
+                          <!--div id="newheading" class="col-sm-12 clearfix secondheader">
+                                    <div id="showmonths" class="col-sm-4 col-xs-4">
+                                        <span style="color:white;padding: 0px 10px 0px 0px;">Period:</span>
+                                        <select id="selectedmonth">
+                                            <option value="12">12 Month</option>
+                                            <option value="9">9 Month</option>
+                                            <option value="6" selected="selected">6 Month</option>
+                                            <option value="3">3 Month</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-sm-4 col-xs-4" style="text-align:right;">
+                                        <span style="color:white;margin-right: 8px; ">Region:</span>
+                                        <select id="ddlDrCoverage" class="dropdown" style="color: blue; width: 90px; height: 27px;">undefined<option selected="selected" data-division_code="All">--All--</option><option data-division_code="10">Genesia</option><option data-division_code="DIV00000001">EVACARE</option></select>
+                                    </div>
+                                    <div class="col-sm-4 col-xs-4" style="text-align:right;">
+                                        <span style="color:white;margin-right: 8px;">Division:</span>
+                                        <select id="ddlDrCoverage" class="dropdown" style="color: blue; width: 90px; height: 27px;">undefined<option selected="selected" data-division_code="All">--All--</option><option data-division_code="10">Genesia</option><option data-division_code="DIV00000001">EVACARE</option></select>
+                                    </div>
+                                    
+                                </div-->
+                            <center>
+                                WIP
+                            </center>
+
+                            </div>
+                    </div>
+                </div>
+<!--                <div class="col-sm-12 clearfix" style="margin-top: 0px;">-->
+<!--                    <div class="col-lg-12 col-sm-12" id="CallavergeDr" style="padding-right:0px">-->
+<!--                        <div class="panel cls-call-cov-line cls-common-head">-->
+<!--                            <div class="panel-heading" style="padding: 7px 15px;">-->
+<!--                                <div class="col-xs-12 clearfix" style="padding:0px;">-->
+<!--                                    <div class="col-xs-1" style="right: 13px;"><i class="fa fa-line-chart title-i" style="font-size: 20px;"></i></div>-->
+<!--                                    <div class="col-xs-4" id="callalinement" style="right: 27px;font-size:14px;top:2px;">-->
+<!--                                        <label>Call Average</label>-->
+<!--                                    </div>-->
+<!--                                    &lt;!&ndash;div class="col-xs-6" style="text-align:right;">-->
+<!--                                        <label id="callaverageFilter" style="text-decoration: underline;cursor: pointer;color:white;"> Choose Your Filter </label>-->
+<!--                                    -->
+<!--                                    </div>-->
+<!--                                    <div class="col-sm-1">-->
+<!--                                        <i class="fa fa-info-circle information" id="callAvgInfo" aria-hidden="true" style="margin-top: 3px;"></i>-->
+<!--                                    </div&ndash;&gt;-->
+<!--                                </div>-->
+<!--                            </div>-->
+                          <!--div id="newheading" class="col-sm-12 clearfix secondheader">
+                                    <div id="showmonths" class="col-sm-4 col-xs-4">
+                                        <span style="color:white;padding: 0px 10px 0px 0px;">Period:</span>
+                                        <select id="selectedmonth">
+                                            <option value="12">12 Month</option>
+                                            <option value="9">9 Month</option>
+                                            <option value="6" selected="selected">6 Month</option>
+                                            <option value="3">3 Month</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-sm-4 col-xs-4" style="text-align:right;">
+                                        <span style="color:white;margin-right: 8px; ">Region:</span>
+                                        <select id="ddlDrCoverage" class="dropdown" style="color: blue; width: 90px; height: 27px;">undefined<option selected="selected" data-division_code="All">--All--</option><option data-division_code="10">Genesia</option><option data-division_code="DIV00000001">EVACARE</option></select>
+                                    </div>
+                                    <div class="col-sm-4 col-xs-4" style="text-align:right;">
+                                        <span style="color:white;margin-right: 8px;">Division:</span>
+                                        <select id="ddlDrCoverage" class="dropdown" style="color: blue; width: 90px; height: 27px;">undefined<option selected="selected" data-division_code="All">--All--</option><option data-division_code="10">Genesia</option><option data-division_code="DIV00000001">EVACARE</option></select>
+                                    </div>
+                                    
+                                </div-->
+<!--                            <center>-->
+<!--                                GRAPH 9-->
+<!--                            </center>-->
+
+<!--                            </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="col-sm-12 clearfix" style="margin-top: 0px;">-->
+<!--                    <div class="col-lg-12 col-sm-12" id="CallavergeDr" style="padding-right:0px">-->
+<!--                        <div class="panel cls-call-cov-line cls-common-head">-->
+<!--                            <div class="panel-heading" style="padding: 7px 15px;">-->
+<!--                                <div class="col-xs-12 clearfix" style="padding:0px;">-->
+<!--                                    <div class="col-xs-1" style="right: 13px;"><i class="fa fa-line-chart title-i" style="font-size: 20px;"></i></div>-->
+<!--                                    <div class="col-xs-4" id="callalinement" style="right: 27px;font-size:14px;top:2px;">-->
+<!--                                        <label>Call Average</label>-->
+<!--                                    </div>-->
+<!--                                    &lt;!&ndash;div class="col-xs-6" style="text-align:right;">-->
+<!--                                        <label id="callaverageFilter" style="text-decoration: underline;cursor: pointer;color:white;"> Choose Your Filter </label>-->
+<!--                                    -->
+<!--                                    </div>-->
+<!--                                    <div class="col-sm-1">-->
+<!--                                        <i class="fa fa-info-circle information" id="callAvgInfo" aria-hidden="true" style="margin-top: 3px;"></i>-->
+<!--                                    </div&ndash;&gt;-->
+<!--                                </div>-->
+<!--                            </div>-->
+                          <!--div id="newheading" class="col-sm-12 clearfix secondheader">
+                                    <div id="showmonths" class="col-sm-4 col-xs-4">
+                                        <span style="color:white;padding: 0px 10px 0px 0px;">Period:</span>
+                                        <select id="selectedmonth">
+                                            <option value="12">12 Month</option>
+                                            <option value="9">9 Month</option>
+                                            <option value="6" selected="selected">6 Month</option>
+                                            <option value="3">3 Month</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-sm-4 col-xs-4" style="text-align:right;">
+                                        <span style="color:white;margin-right: 8px; ">Region:</span>
+                                        <select id="ddlDrCoverage" class="dropdown" style="color: blue; width: 90px; height: 27px;">undefined<option selected="selected" data-division_code="All">--All--</option><option data-division_code="10">Genesia</option><option data-division_code="DIV00000001">EVACARE</option></select>
+                                    </div>
+                                    <div class="col-sm-4 col-xs-4" style="text-align:right;">
+                                        <span style="color:white;margin-right: 8px;">Division:</span>
+                                        <select id="ddlDrCoverage" class="dropdown" style="color: blue; width: 90px; height: 27px;">undefined<option selected="selected" data-division_code="All">--All--</option><option data-division_code="10">Genesia</option><option data-division_code="DIV00000001">EVACARE</option></select>
+                                    </div>
+                                    
+<!--                                </div&ndash;&gt;-->
+<!--                            <center>-->
+<!--                                GRAPH 10-->
+<!--                            </center>-->
+
+<!--                            </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--             </div>-->
+
+<!--            -->
+<!--            -->
+<!--            -->
+
+<!--        </div>-->
+
+<!--    </div>-->
+<!--</div>-->
+<!--</div>-->
+
+
+
+<div class="modal" id="dvMoreInfoModal" role="dialog" aria-hidden="true" style="display: none;">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button aria-label="Close" data-dismiss="modal" class="close" type="button" onclick="HideModalPopup(&#39;dvMoreInfoModal&#39;);"><span aria-hidden="true">×</span></button>
+                <h4 class="modal-title clsModalTitle" id="dvMoreInfoHeader" style="text-align:center"></h4>
+            </div>
+            <div class="modal-body">
+                <div class="col-lg-12 cls-padding-none" id="dvInfoContent">
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="modal" id="dvMoreInfoModal2" role="dialog" aria-hidden="true" style="display: none;">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button aria-label="Close" data-dismiss="modal" class="close" type="button" onclick="HideModalPopup(&#39;dvMoreInfoModal2&#39;);"><span aria-hidden="true">×</span></button>
+                <h4 class="modal-title clsModalTitle" id="dvMoreInfo2Header"></h4>
+            </div>
+            <div class="modal-body">
+                <div class="col-lg-12 cls-padding-none" id="dvInfoContent2">
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<div id="dvLoadingDoctorsBirthdayAlerts" style="padding-top: 5px; padding-right: 10px; display: none; width: 700px; height: 400px; border: 4px solid #CCCCCC; overflow: scroll; background-color: #FFFFFF;">
+    <div style="position: absolute; font-size: 11px; width: 98%; padding: 10px;">
+        <span style="float: right; cursor: pointer; color: white; margin: -23px;" onclick="HideModalPopup(&#39;dvLoadingDoctorsBirthdayAlerts&#39;); fnHideAccordinforBday();">
+            <img src="./Dashboard-milindmalshe_files/close.png">
+        </span>
+        <div style="width: auto;" class="cls_AltTitle">Birthday Details</div>
+        <br>
+        <div id="dvshowBirthdayAlertsforchildusers" style="width: 100%"></div>
+    </div>
+</div>
+
+<div id="dvLoadingDoctorsAnniversaryAlerts" style="padding-top: 5px; padding-right: 10px; display: none; width: 700px; height: 400px; border: 4px solid #CCCCCC; overflow: scroll; background-color: #FFFFFF;">
+    <div style="position: absolute; font-size: 11px; width: 98%; padding: 10px;">
+        <span style="float: right; cursor: pointer; color: white; margin: -23px;" onclick="HideModalPopup(&#39;dvLoadingDoctorsAnniversaryAlerts&#39;); fnHideAccordinforAnniversary();">
+            <img src="./Dashboard-milindmalshe_files/close.png">
+        </span>
+        <div style="width: auto;" class="cls_AltTitle">Anniversary Details</div>
+        <br>
+        <div id="dvshowAnniversaryAlertsforchildusers" style="width: 100%"></div>
+    </div>
+</div>
+
+
+<div class="modal fade" id="overylay1" role="dialog">
+    <div class="modal-dialog" style="width: 32%;">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">×</button>
+                <h4 class="modal-title">Choose Filter</h4>
+            </div>
+            <div class="modal-body">
+                <div class="col-sm-12">
+                    <input type="checkbox" value="UnApprove" id="complianceeexc" name="UnApprovedDoc" style="display:inline;">
+                    <input type="hidden" value="Not Selected" id="complianceeexchid" name="UnApprovehid" style="display:inline;">
+                    <label style="display:inline;">Exclude Unapproved Doctors</label><br>
+                    <input type="checkbox" value="Vaccancy" id="compliancVaccexc" name="UnApprovedDoc" style="display:inline;">
+                    <input type="hidden" value="Not Selected" id="compliancVaccexchid" name="Vaccancyhid" style="display:inline;">
+                    <label style="display:inline;">Exclude Vacant Territories </label><br>
+                    <input type="checkbox" value="1" id="Comeragediv" name="DivCompli" style="display:inline;">
+                    <label style="display:inline;">Exact Match Of Division </label>
+                    <input type="hidden" value="hdnDrCompCoverageRgnCount" id="hdnDrCompCoverageRgnCount" name="UnApprovedVaccRegionCount" style="display:inline;">
+                    <label style="display:block;">Field Days Applicable : <input type="number" min="0" max="31" step="0.5" id="DrCompCoverageRgnCount" value="" style="display:inline;"></label>
+                </div>
+
+                <div><input type="button" class="btn btn-primary" id="submitoverlay1" name="Go" value="Filter" style="margin-top: 10px;"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="overylay2" role="dialog">
+    <div class="modal-dialog" style="width: 32%;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">×</button>
+                <h4 class="modal-title">Choose Filter</h4>
+            </div>
+            <div class="modal-body">
+                <div class="col-sm-12">
+                    <input type="checkbox" value="Vaccancy" id="DrCoverageVaccexc" name="UnApprovedDoc" style="display:inline;">
+                    <input type="hidden" value="NotSelected" id="DrCoverageVaccexchid" name="UnApprovedDochid" style="display:inline;">
+                    <label style="display:inline;">Exclude Vacant Territories </label><br>
+                    <input type="checkbox" value="1" id="DRCoveragediv" name="DrdivCoverage" style="display:inline;">
+                    <label style="display:inline;">Exact Match Of Division </label>
+
+                    <input type="hidden" value="hdnNormsCoverageRgnCount" id="hdnNormsCoverageRgnCount" name="UnApprovedVaccRegionCount" style="display:inline;">
+                    <label style="display:block;">Field Days Applicable : <input type="number" min="0" max="31" step="0.5" id="NormsCoverageRgnCount" value="" style="display:inline;"></label>
+                </div>
+                <div><input type="button" class="btn btn-primary" id="submitoverlay2" name="Go" value="Filter" style="margin-top: 10px;"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="overylay3" role="dialog">
+    <div class="modal-dialog" style="width: 32%;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">×</button>
+                <h4 class="modal-title">Choose Filter</h4>
+            </div>
+            <div class="modal-body">
+                <div class="col-sm-12">
+                    <input type="checkbox" value="UnApprove" id="DrMonthexc" name="UnApprovedDoc" style="display:inline;">
+                    <input type="hidden" value="NotSelected" id="DrMonthexchid" name="UnMonthhid" style="display:inline;">
+                    <label style="display:inline;">Exclude Unapproved Doctors</label><br>
+                    <input type="checkbox" value="Vaccancy" id="DrMonthVaccexc" name="UnApprovedDoc" style="display:inline;">
+                    <input type="hidden" value="NotSelected" id="DrMonthVacchid" name="UMonthVacchid" style="display:inline;">
+                    <label style="display:inline;">Exclude Vacant Territories </label><br>
+                    <input type="checkbox" value="1" id="Drdiv" name="DivDr" style="display:inline;">
+                    <label style="display:inline;">Exact Match Of Division </label>
+                    <input type="hidden" value="hdnDrMissedRgnCount" id="hdnDrMissedRgnCount" name="UnApprovedVaccRegionCount" style="display:inline;">
+                    <label style="display:block;">Field Days Applicable : <input type="number" min="0" max="31" step="0.5" id="DrMissedRgnCount" value="" style="display:inline;"></label>
+
+                </div>
+                <div><input type="button" class="btn btn-primary" id="submitoverlay3" name="Go" value="Filter" style="margin-top: 10px;"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="overylay4" role="dialog">
+    <div class="modal-dialog" style="width: 32%;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">×</button>
+                <h4 class="modal-title">Choose Filter</h4>
+            </div>
+            <div class="modal-body">
+
+                
+
+                <div class="col-sm-12">
+                    <input type="checkbox" value="UnApprove" id="DrSpechexc" name="UnApprovedDoc" style="display:inline;">
+                    <input type="hidden" value="NotSelected" id="DrSpechexchid" name="RegDoctorspechid" style="display:inline;">
+                    <label style="display:inline;">Exclude Unapproved Doctors</label><br>
+                    <input type="checkbox" value="Vaccancy" id="DrSpecVaccexc" name="UnApprovedDoc" style="display:inline;">
+                    <input type="hidden" value="NotSelected" id="DrSpecVaccexchid" name="ExcDoctorspechid" style="display:inline;">
+                    <label style="display:inline;">Exclude Vacant Territories </label><br>
+                    <input type="checkbox" value="1" id="Specdiv" name="DivSpec" style="display:inline;">
+                    <label style="display:inline;">Exact Match Of Division </label>
+                    <input type="hidden" value="" id="hdnSpecWiseCovgRgnCount" name="UnApprovedVaccRegionCount" style="display:inline;">
+                    <label style="display:block;">Field Days Applicable : <input type="number" min="0" max="31" step="0.5" id="SpecWiseCovgRgnCount" value="" style="display:inline;"></label>
+                </div>
+                <div class="col-xs-12 clearfix" style="border: 1px solid;height: 300px;overflow: scroll;margin-top: 10px;">
+                    <div id="speciality" style="margin-left: 5%;"><input type="text" class="form-control" id="search" onkeyup="AdminDashboard.myFunction();" placeholder="Search for names.." title="Type in a name"><table><tbody><tr><td><input type="radio" class="radiospec" value="GYNAECOLOGIST" id="Spec_0" name="spec" checked=""> <lable>GYNAECOLOGIST</lable><br></td></tr><tr><td><input type="radio" class="radiospec" value="Urogenital" id="Spec_1" name="spec"> <lable>Urogenital</lable><br></td></tr><tr><td><input type="radio" class="radiospec" value="Fertility" id="Spec_2" name="spec"> <lable>Fertility</lable><br></td></tr><tr><td><input type="radio" class="radiospec" value="LADY GP" id="Spec_3" name="spec"> <lable>LADY GP</lable><br></td></tr><tr><td><input type="radio" class="radiospec" value="INFERTILITTY" id="Spec_4" name="spec"> <lable>INFERTILITTY</lable><br></td></tr><tr><td><input type="radio" class="radiospec" value="OTHERS" id="Spec_5" name="spec"> <lable>OTHERS</lable><br></td></tr><tr><td><input type="radio" class="radiospec" value="IVF" id="Spec_6" name="spec"> <lable>IVF</lable><br></td></tr><tr><td><input type="radio" class="radiospec" value="Menopause" id="Spec_7" name="spec"> <lable>Menopause</lable><br></td></tr></tbody></table></div>
+                </div>
+                <div><input type="button" class="btn btn-primary" id="submitoverlay4" name="Go" value="Filter" style="margin-top: 10px;"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade" id="overylay5" role="dialog">
+    <div class="modal-dialog" style="width: 32%;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">×</button>
+                <h4 class="modal-title">Choose Filter</h4>
+            </div>
+            <div class="modal-body">
+                <div class="col-sm-12">
+                    <input type="checkbox" value="1" id="CallAvgdiv" name="CalAvgdiv" style="display:inline;">
+                    <label style="display:inline;">Exact Match Of Division </label><br>
+                    <input type="radio" value="UserWise" id="DrCallUser" name="Drcallaverage" style="display:inline;" checked="checked">
+                    <input type="hidden" value="Selected" id="DrCallUserhid" name="UserBasedhid" style="display:inline;">
+                    <label style="display:inline;">User Based</label><br>
+                    <input type="radio" value="RegionWise" id="DrCallRegion" name="Drcallaverage" style="display:inline;">
+                    <input type="hidden" value="NotSelected" id="DrCallRegionhid" name="RegBasehid" style="display:inline;">
+                    <label style="display:inline;">Region Based</label><br>
+
+
+                    
+                    <div class="col-xs-12 clearfix" style="border: 1px solid;height: 300px;overflow: scroll;margin-top: 10px;">
+                        <div id="example-getting-started" style="margin-left: 5%;"><input type="text" class="form-control" id="search" onkeyup="AdminDashboard.myFunction();" placeholder="Search for names.." title="Type in a name"><table id="namedisplay"><tbody><tr><td><input type="Checkbox" class="Checkbox" value="MR1" id="name_0" name="User" checked=""> <lable>MR1</lable><br></td></tr><tr><td><input type="Checkbox" class="Checkbox" value="MR" id="name_1" name="User"> <lable>MR</lable><br></td></tr><tr><td><input type="Checkbox" class="Checkbox" value="ABM" id="name_2" name="User"> <lable>ABM</lable><br></td></tr><tr><td><input type="Checkbox" class="Checkbox" value="ZSM" id="name_3" name="User"> <lable>ZSM</lable><br></td></tr></tbody></table></div>
+                    </div>
+                    
+                </div>
+                <div><input type="button" class="btn btn-primary" id="submitoverlay5" name="Go" value="Filter" style="margin-top: 10px;"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<input type="hidden" id="hdnCurRegionCode" value="REC00000728">
+<input type="hidden" id="hdnCurUserCode" value="USC00001282">
+<script src="./Dashboard-milindmalshe_files/AdminDashboard.js"></script>
+<link href="{% static "D:/geo_master/static/bootstrap.css" %}" rel="stylesheet">
+<link href="{% static "D:/geo_master/static/Dashboard.css" %}" rel="stylesheet">
+</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    </div>
+<div style="position: absolute; display: none;"><div style="background: infobackground; padding: 1px; border: 1px solid infotext; font-size: 11px; margin: 11px; font-family: Arial;">Super Core</div></div><div style="position: absolute; display: none;"><div style="background: infobackground; padding: 1px; border: 1px solid infotext; font-size: 12px; margin: 12px; font-family: Arial;">Aug'19</div></div><div style="position: absolute; display: none;"><div style="background: infobackground; padding: 1px; border: 1px solid infotext; font-size: 12px; margin: 12px; font-family: Arial;">Sep'19</div></div><div style="position: absolute; display: none;"><div style="background: infobackground; padding: 1px; border: 1px solid infotext; font-size: 12px; margin: 12px; font-family: Arial;">Oct'19</div></div><div style="position: absolute; display: none;"><div style="background: infobackground; padding: 1px; border: 1px solid infotext; font-size: 12px; margin: 12px; font-family: Arial;">Nov'19</div></div><div style="position: absolute; display: none;">
+        <div style="background: infobackground; padding: 1px; border: 1px solid infotext; font-size: 12px; margin: 12px; font-family: Arial;">Dec'19</div></div><div style="position: absolute; display: none;"><div style="background: infobackground; padding: 1px; border: 1px solid infotext; font-size: 12px; margin: 12px; font-family: Arial;">Aug'19</div></div><div style="position: absolute; display: none;"><div style="background: infobackground; padding: 1px; border: 1px solid infotext; font-size: 12px; margin: 12px; font-family: Arial;">Sep'19</div></div>
+    <div style="position: absolute; display: none;"><div style="background: infobackground; padding: 1px; border: 1px solid infotext; font-size: 12px; margin: 12px; font-family: Arial;">Oct'19</div></div><div style="position: absolute; display: none;"><div style="background: infobackground; padding: 1px; border: 1px solid infotext; font-size: 12px; margin: 12px; font-family: Arial;">Nov'19</div></div><div style="position: absolute; display: none;">
+        <div style="background: infobackground; padding: 1px; border: 1px solid infotext; font-size: 12px; margin: 12px; font-family: Arial;">Dec'19</div></div><span><script src="./Dashboard-milindmalshe_files/6642" type="text/javascript">
+
+    </script></span>
+ {% csrf_token %}
+</form>
+</body>
+</html>

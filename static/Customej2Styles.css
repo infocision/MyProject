@@ -1,0 +1,177 @@
+﻿body {
+    background: #fafbfd;
+}
+
+
+.e-pager .e-currentitem, .e-pager .e-currentitem:hover {
+    background: #155494;
+    color: #fff;
+    opacity: 1;
+}
+
+#Grid_ccdlg {
+    text-align: left;
+}
+
+#Grid_content_table {
+    border-width: 2px;
+    border-color: rgba(221,221,221,1.0);
+}
+
+.e-input-group.e-search {
+    margin-right: 10px;
+}
+
+.e-grid .e-checkboxlist {
+    text-align: left;
+}
+
+.e-grid .e-altrow {
+    background-color: #FAFAFF;
+}
+
+.e-pager .e-currentitem, .e-checkbox-wrapper .e-frame.e-check,
+.e-css.e-checkbox-wrapper .e-frame.e-check, .e-btn.e-primary,
+.e-css.e-btn.e-primary, .e-btn.e-primary:hover, .e-css.e-btn.e-primary:hover {
+    background: #155494;
+}
+.e-btn.e-flat.e-primary:hover, .e-css.e-btn.e-flat.e-primary:hover {
+    color:#155494;
+}
+.e-btn.e-flat.e-primary:active, .e-css.e-btn.e-flat.e-primary:active {
+    color:#155494;
+}
+.e-treeview .e-list-item.e-active > .e-text-content .e-list-text {
+    color:#155494;
+}
+.e-treeview .e-list-item.e-active > .e-text-content {
+    color:#155494;
+}
+.e-btn.e-flat.e-primary, .e-css.e-btn.e-flat.e-primary,.e-btn.e-flat:hover, .e-css.e-btn.e-flat:hover,.e-btn.e-flat.e-primary:active {
+    color:#155494;
+}
+.e-pivot-calc-dialog-div .e-dialog .e-control .e-draggable .e-popup .e-keyboard .e-popup-open {
+    top:22%;
+}
+.e-pivot-calc-dialog-div.e-dialog {
+    max-height:500px !important;
+    margin-top:10%;
+}
+.e-ok-btn .e-primary .e-flat {
+    color:#155494;
+}
+.e-btn.e-flat:hover,
+.e-css.e-btn.e-flat:hover {
+    background-color: #c4b1e2;
+    color: #155494;
+}
+
+.e-btn.e-flat {
+    background-color: transparent;
+    color: #155494;
+}
+
+.e-checkbox-wrapper:hover .e-frame.e-check,
+.e-css.e-checkbox-wrapper:hover .e-frame.e-check {
+    background-color: #155494;
+    border-color: transparent;
+    color: #fff;
+}
+
+.e-input-group.e-control-wrapper:not(.e-float-icon-left):not(.e-float-input)::before,
+.e-input-group:not(.e-float-icon-left):not(.e-float-input)::before,
+.e-input-group.e-control-wrapper:not(.e-float-icon-left):not(.e-float-input)::after,
+.e-input-group:not(.e-float-icon-left):not(.e-float-input)::after {
+    background: #155494;
+}
+
+.e-dropdownbase .e-list-item.e-active, .e-dropdownbase .e-list-item.e-active:hover {
+    color: #155494;
+}
+
+.e-numericcontainer, .e-pager .e-currentitem, .e-numericcontainer > div {
+    padding-top: 7px;
+}
+
+
+.e-gridcontent {
+    overflow-y: auto;
+    height: 73%;
+}
+
+.e-headercontent {
+    padding-bottom: 1px;
+}
+.e-grid .e-ccdlg li.e-cclist {
+    text-align:left !important;
+}
+
+/*----------------Input items on select the text ----------------*/
+
+input.e-input::selection, textarea.e-input::selection, .e-input-group input.e-input::selection,
+.e-input-group.e-control-wrapper input.e-input::selection, .e-float-input input::selection, 
+.e-float-input.e-control-wrapper input::selection {
+    background: #436ab5;
+    color: #fff;
+}
+
+/*---- Grouped Item on Drop area hover background color*/
+.e-grid .e-groupheadercell:hover {
+    background-color: #499dca;
+    border-color: #000;
+}
+
+/*---- Grouped Item on Drop area background color*/
+.e-grid .e-groupheadercell {
+    background-color: #4087c2;
+    border-color: #e0e0e0;
+    border-radius: 12px;
+    color: #fff;
+}
+
+/*----Drop Area while grouping (item over area and before drop )---*/
+.e-grid .e-groupdroparea.e-hover {
+    background-color: #4087c2;
+}
+
+/* ---------------- Drop Area after dropped ----------------*/
+.e-grid .e-groupdroparea.e-grouped {
+    background-color: #49a5d5;
+}
+
+/*--------------------- Drop Area ----------------*/
+.e-grid .e-groupdroparea {
+    background-color: #91bbd1;
+    border-top-color: #e0e0e0;
+    color: #ffffff;
+    font-size: 16px;
+    font-family:'Segoe UI', 'Lucida Grande', Verdana, Arial, Helvetica, sans-serif !important;
+}
+
+/* ----------------------Scroll Bar----------------------- */
+::-webkit-scrollbar-thumb {
+    background: #155494;
+    -webkit-border-radius: 100px;
+}
+
+/*-----------------------Piovting---------------------------*/
+.e-grid-min-height .e-gridheader .e-headercell, .e-grid-min-height .e-gridheader .e-detailheadercell, .e-grid-min-height .e-gridheader .e-headercell .e-headercelldiv {
+    text-align:center !important;
+}
+.e-grid .e-headercelldiv {
+    text-align:center !important;
+}
+.e-headertext {
+    text-align: center !important;
+}
+.e-field-header {
+    padding: 0px !important;
+    padding-bottom: 15% !important;
+}
+#PivotView_grid {
+    max-height:640px;
+    overflow:auto;
+}
+.e-gridcontent.e-control .e-droppable {
+    height:475px;
+}

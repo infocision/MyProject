@@ -1,0 +1,566 @@
+<style type="text/css">
+    .EmpExcTP {
+        margin-left: 3% !important;
+    }
+    .HomemodalEmp {
+        margin-left: 30% !important;
+    }
+    .Dashboard {
+        margin-left: 26% !important;
+    }
+
+    .NewDash {
+        margin-left: 2% !important;
+    }
+
+    .Task {
+        margin-left: 2% !important;
+    }
+
+    #dvTabs_Emp span {
+        display: block !important;
+        margin-left: 10px;
+        /*margin-left: 15px!important;*/
+    }
+
+    #modalEmployee {
+        left: 5% !important;
+        top: 10% !important;
+        margin-top: 0px !important;
+        /*margin-left: 0px !important;*/
+    }
+
+        #modalEmployee.modal-dialog {
+            width: 600px !important;
+            padding: 0px !important;
+            height: 500px;
+            /*left: 28% !important;*/
+            top: 10% !important;
+        }
+
+        #modalEmployee .modal-header {
+            border-bottom: 0px !important;
+        }
+
+    #modalNoticeBoard .modal-header {
+        border-bottom: 0px !important;
+    }
+
+    #modalNoticeBoard .modal-dialog {
+        width: 600px !important;
+        padding: 0px !important;
+        max-height: 500px;
+        /*left: 28% !important;*/
+        top: 10% !important;
+    }
+
+    #divEmployee .bx-viewport {
+        min-height: 330px !important;
+        max-height: 375px !important;
+        overflow: auto !important;
+    }
+
+    #divEmployee .bx-wrapper .bx-pager {
+        padding-top: 0px !important;
+    }
+
+    #divEmployee .bxslider li {
+        width: 100% !important;
+    }
+
+    .Mandatory {
+        color: red;
+    }
+
+    .Prof {
+        /*font-size: 16px;*/
+        text-align: center;
+        background-color: #4682B4;
+        font-size: 14.0pt;
+        color: #c5d9f1;
+        padding: 5px;
+        border: 1px solid #000000;
+    }
+
+    .AddProf {
+        text-align: center;
+        background-color: #00B050;
+        font-size: 10.0pt;
+        color: white;
+        padding: 5px;
+        border: 1px solid #000000;
+    }
+
+
+
+
+    /*New Css*/
+
+    .Label_3 {
+        width: 50%;
+        float: left;
+        position: relative;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .LabelTxt {
+        display: inline-block;
+        max-width: 100%;
+        margin-bottom: 5px;
+        font-weight: 700;
+    }
+
+    .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+    .Div_12 {
+        width: 100%;
+        float: left;
+        position: relative;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    #PassNotifyModal {
+        left: 30% !important;
+        top: 28% !important;
+    }
+
+    /*#modalEmployee {
+        left: 0% !important;
+    }*/
+
+    .NoticeBoardModal {
+        left: 5% !important;
+        top: 10% !important;
+        margin-top: 0px !important;
+        margin-left: 0px !important;
+    }
+
+    .DCRNoticeBoardModal {
+        /*margin-left: 26% !important;*/
+        top: 30% !important;
+    }
+
+
+    .col_12AddProf {
+        float: left;
+        width: 100%;
+    }
+
+    div.col_12 {
+        float: left;
+        margin-left: 4px;
+        width: 100%;
+    }
+
+    div.col_10 {
+        float: left;
+        width: 83.33333333%;
+    }
+
+    div.col_8 {
+        float: left;
+        width: 66.66666667%;
+    }
+
+    div.col_6 {
+        float: left;
+        width: 50%;
+    }
+
+    div.col_4 {
+        float: left;
+        width: 33.33333333%;
+    }
+
+    div.col_2 {
+        float: left;
+        width: 16.66666667%;
+    }
+
+    /*#dvTabs_Emp span {
+        display: block !important;
+        /*margin-left: 15px!important;*/
+    /*}*/
+
+    .dvAjaxLoad {
+        width: 100%;
+        text-align: center;
+        margin-top: 25px;
+        display: block;
+        position: fixed;
+        top: 30%;
+        opacity: 4;
+        display: none;
+    }
+
+    .quickLinks {
+        padding: 0.5rem;
+        /*width: 32px;
+        height: 32px;
+        float: left;*/
+        border-right: 1px solid #f2f2f2;
+        /*margin-left: 5px;
+        margin-top: 3px;*/
+        cursor: pointer;
+    }
+
+    #dvQLText {
+        display: inline-block;
+        font-style: normal;
+        background: gray;
+        color: #FFF;
+        font-weight: bold;
+        width: 15%;
+        float: left;
+        height: 40px !important;
+        white-space: nowrap;
+    }
+    /*#dvQuickLinks:before {
+        content: "Quick Links";
+        display: inline-block;
+        font-style: normal;
+        background: gray;
+        padding: 0.6%;
+        color: #FFF;
+        font-weight: bold;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }*/
+
+    .dvQuickImgs {
+        display: flex;
+        /*min-height: 40px;
+        position: relative;
+        top: 5px;
+        width: 100%;*/
+    }
+
+    .dvTicker {
+        font-family: Arial, sans-serif;
+        /*margin: 50px 0;*/
+        min-height: 40px;
+        float: left;
+        /*cursor: pointer;*/
+        font-weight: bold;
+        width: 85%;
+    }
+
+    .spnTick {
+        cursor: pointer;
+    }
+
+    #dvTickerText {
+        display: inline-block;
+        font-style: normal;
+        background: gray;
+        color: #FFF;
+        font-weight: bold;
+        height: 40px !important;
+        padding-left: 1%;
+    }
+
+    #menu1 {
+        font-family: Segoe UI;
+        font-size: 11px;
+        color: #4e5c6d;
+        /*float: left;*/
+        width: 100%;
+        height: 30px;
+        text-transform: capitalize;
+        border-bottom: 2px solid #aaa;
+        background-color: #f3f3f3;
+        /*margin-left: 5px;*/
+    }
+
+    #divGenieReportMain {
+        border: 5px solid #676A72;
+        background: #fff;
+        padding: 5px;
+        font-size: 13px;
+        display: none;
+        margin-left: 5%;
+        left: 5%;
+        width: 80%;
+        height: 500px;
+        overflow: auto;
+    }
+
+    #dvQuickLinks {
+        width: 85%;
+        float: left;
+    }
+
+    /*#modalSplash {
+        top: 1px !important;
+        left: 0px !important;
+        margin-left: 18% !important;
+        margin-top: 0px !important;
+        height: 1500px !important;
+        overflow: hidden;
+    }*/
+
+
+    /*#modalEmployee {
+        top: 1px !important;
+        left: 0px !important;
+        margin-left: 0px !important;
+        margin-top: 0px !important;
+    }
+
+        #modalEmployee.modal-dialog {
+            width: 600px !important;
+            padding: 0px !important;
+            height: 500px;
+        }*/
+
+
+
+    /*#modalSplash #divSplash {
+            min-height: 200px;
+            max-height: 400px;
+            overflow: auto;
+        }*/
+    bx-pager bx-default-pager {
+        display: none !important;
+    }
+
+    .bx-wrapper .bx-next {
+        right: -38px !important;
+    }
+
+    .bx-wrapper .bx-prev {
+        left: -38px !important;
+    }
+
+    .bx-wrapper {
+        border: 0px !important;
+    }
+
+    .Mandatory {
+        color: red;
+    }
+
+    /*.NoticeBoardModal {
+
+        top: 10% !important;
+    }*/
+
+    #lbltext {
+        position: relative;
+        top: 475px;
+        left: 50%;
+        color: #000;
+        font-size: 34px !important;
+        cursor: pointer;
+        z-index: 999;
+        background: rgba(255, 255, 255, 0.6784313725490196);
+    }
+    /*.Prof {*/
+    /*font-size: 16px;
+        /*text-align: center;
+        background-color: #4682B4;
+        font-size: 14.0pt;
+        color: #c5d9f1;
+        padding: 5px;
+        border: 1px solid #000000;
+    }*/
+
+    /*.AddProf {
+        text-align: center;
+        background-color: #00B050;
+        font-size: 10.0pt;
+        color: white;
+        padding: 5px;
+        border: 1px solid #000000;*/
+    /*}*/
+
+    .test {
+        width: 100% !important;
+    }
+
+    .bx-viewport {
+        height: 545px !important;
+    }
+
+    #CCOverlay {
+        top: 30.2px !important;
+    }
+
+    .Bfragree {
+        border: 1px solid #999999;
+        background-color: #cccccc;
+        color: #666666;
+    }
+
+    .Bfragree:hover {
+        border: 1px solid #999999;
+        background-color: #cccccc;
+        color: #666666;
+    }
+    div#hometopimage img
+    {
+        width:25px;
+        cursor: pointer;
+    }
+	
+
+	#bro_Error_msg {
+
+        padding: 3px 5px;
+        font-weight: bold;
+        background: #800000;
+        color: #fff;
+        border-radius: 2px;
+        font-size: 14px;
+        width: 63%;
+        margin-top: 10px;
+        height: 42px;
+    }
+
+    #lbltext {
+        position: relative;
+        top: 475px;
+        left: 50%;
+        color: #000;
+        font-size: 34px !important;
+        cursor: pointer;
+        z-index: 999;
+        background: rgba(255, 255, 255, 0.6784313725490196);
+    }
+
+    #slideshow {
+        margin: 0 auto;
+        position: relative;
+        width: 100%;
+        padding: 1% 1% 56.25% 1%; /*56.25 is for 16x9 resolution*/
+        border-radius: 20px;
+        background: rgba(0,0,0,0.2);
+        box-shadow: 0 0 20px rgba(0,0,0,0.6);
+        box-sizing: border-box;
+    }
+
+        #slideshow > div {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            right: 10px;
+            bottom: 10px;
+        }
+
+            #slideshow > div > img {
+                width: 100%;
+                height: 100%;
+                border-radius: 20px;
+            }
+
+        #slideshow:hover i, #slideshow:hover .slider-dots {
+            opacity: 1;
+        }
+
+    .slidebtn {
+        z-index: 99;
+        background: transparent;
+        outline: none;
+        border: none;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        transition: all 0.3s;
+        padding: 0 10px 0 10px;
+    }
+
+        .slidebtn:active,
+        .slidedtn:focus {
+            outline: none;
+        }
+
+        .slidebtn i {
+            color: #FFF;
+            font-size: 72px;
+            opacity: 0.2;
+            -webkit-transition: all 0.3s;
+            -moz-transition: all 0.3s;
+            transition: all 0.3s;
+        }
+
+    .prev {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        bottom: 10px;
+    }
+
+    .next {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        bottom: 10px;
+    }
+
+
+    .slider-dots {
+        opacity: 0.2;
+        list-style: none;
+        display: inline-block;
+        padding-left: 0;
+        margin-bottom: 0;
+        position: absolute;
+        left: 50%;
+        bottom: 3%;
+        transform: translate(-50%, 0);
+        z-index: 99;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        transition: all 0.3s;
+    }
+
+        .slider-dots li {
+            color: #000;
+            display: inline;
+            font-size: 48px;
+            margin-right: 5px;
+            cursor: pointer;
+        }
+
+            .slider-dots li.active-dot {
+                color: #fff;
+            }
+
+    .test {
+        width: 100% !important;
+    }
+
+    #CCOverlay {
+        top: 23.2px;
+    }
+
+	
+	.blurbg {
+            position: fixed;
+            background-color: white;
+            opacity: 0.5;
+            z-index: 999;
+            width: 100%;
+            height: 100%;
+            display: none;
+        }
+        /*Do not Remove. We overide the all.css font family for HDNEXTGEN*/
+        .fa {
+            font-family: FontAwesome !important;
+        }
+		
+		
+		.jqstooltip { 
+position: absolute;left: 0px;top: 0px;visibility: hidden;background: rgb(0, 0, 0) transparent;background-color: rgba(0,0,0,0.6);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";color: white;font: 10px arial, san serif;text-align: left;white-space: nowrap;padding: 5px;border: 1px solid white;z-index: 10000;}
+.jqsfield { color: white;font: 10px arial, san serif;text-align: left;}
+</style>
+
+

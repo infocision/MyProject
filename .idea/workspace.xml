@@ -1,0 +1,730 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0be57268-9301-4206-b62c-f8fa3f765006" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/._Dashboard-milindmalshe_files" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/._dashboard.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/Dashboard-milindmalshe_files/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/Dashboard-milindmalshe_files/._6642" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/Dashboard-milindmalshe_files/._AdminDashboard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/Dashboard-milindmalshe_files/._Customej2Styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/Dashboard-milindmalshe_files/._Dashboard.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/Dashboard-milindmalshe_files/._RegionTree.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/Dashboard-milindmalshe_files/._TopBannerWithMenu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/Dashboard-milindmalshe_files/._Tree.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/Dashboard-milindmalshe_files/._UserTree.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/Dashboard-milindmalshe_files/._WebApiAjaxHandler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/Dashboard-milindmalshe_files/._ajaxHandler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/Dashboard-milindmalshe_files/._annotatedtimeline.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/Dashboard-milindmalshe_files/._bootbox.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/Dashboard-milindmalshe_files/._bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/Dashboard-milindmalshe_files/._bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/Dashboard-milindmalshe_files/._bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/Dashboard-milindmalshe_files/._bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/Dashboard-milindmalshe_files/._common12.7.0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/Dashboard-milindmalshe_files/._ej2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/Dashboard-milindmalshe_files/._font-awesome.min(1).css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/Dashboard-milindmalshe_files/._font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/Dashboard-milindmalshe_files/._format+en,default+en,ui+en,table+en,orgchart+en,motionchart+en,gauge+en,annotatedtimeline+en,imagechart+en,controls+en,corechart+en,charteditor+en.I.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/Dashboard-milindmalshe_files/._hidoctor.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/Dashboard-milindmalshe_files/._imagesparkline.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/Dashboard-milindmalshe_files/._jquery-3.2.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/Dashboard-milindmalshe_files/._jquery-migrate-1.3.0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/Dashboard-milindmalshe_files/._jquery-ui-1.8.21.custom.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/Dashboard-milindmalshe_files/._jquery-ui.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/Dashboard-milindmalshe_files/._jquery.dynatree.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/Dashboard-milindmalshe_files/._jquery.mtz.monthpicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/Dashboard-milindmalshe_files/._jquery.ui-contextmenu.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/Dashboard-milindmalshe_files/._jquery.ui.core.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/Dashboard-milindmalshe_files/._jquery.ui.datepicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/Dashboard-milindmalshe_files/._jsapi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/Dashboard-milindmalshe_files/._material.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/Dashboard-milindmalshe_files/._orgchart.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/Dashboard-milindmalshe_files/._saved_resource" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/Dashboard-milindmalshe_files/._select2.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/Dashboard-milindmalshe_files/._select2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/Dashboard-milindmalshe_files/._sweetalert.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/Dashboard-milindmalshe_files/._sweetalert.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/Dashboard-milindmalshe_files/._tooltip.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/Dashboard-milindmalshe_files/._ui+en,table+en,controls+en,charteditor+en.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/Dashboard-milindmalshe_files/._ui.dynatree.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/Dashboard-milindmalshe_files/6642" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/Dashboard-milindmalshe_files/AdminDashboard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/Dashboard-milindmalshe_files/Customej2Styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/Dashboard-milindmalshe_files/Dashboard.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/Dashboard-milindmalshe_files/RegionTree.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/Dashboard-milindmalshe_files/TopBannerWithMenu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/Dashboard-milindmalshe_files/Tree.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/Dashboard-milindmalshe_files/UserTree.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/Dashboard-milindmalshe_files/WebApiAjaxHandler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/Dashboard-milindmalshe_files/ajaxHandler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/Dashboard-milindmalshe_files/annotatedtimeline.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/Dashboard-milindmalshe_files/bootbox.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/Dashboard-milindmalshe_files/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/Dashboard-milindmalshe_files/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/Dashboard-milindmalshe_files/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/Dashboard-milindmalshe_files/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/Dashboard-milindmalshe_files/common12.7.0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/Dashboard-milindmalshe_files/ej2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/Dashboard-milindmalshe_files/font-awesome.min(1).css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/Dashboard-milindmalshe_files/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/Dashboard-milindmalshe_files/format+en,default+en,ui+en,table+en,orgchart+en,motionchart+en,gauge+en,annotatedtimeline+en,imagechart+en,controls+en,corechart+en,charteditor+en.I.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/Dashboard-milindmalshe_files/hidoctor.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/Dashboard-milindmalshe_files/imagesparkline.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/Dashboard-milindmalshe_files/jquery-3.2.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/Dashboard-milindmalshe_files/jquery-migrate-1.3.0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/Dashboard-milindmalshe_files/jquery-ui-1.8.21.custom.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/Dashboard-milindmalshe_files/jquery-ui.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/Dashboard-milindmalshe_files/jquery.dynatree.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/Dashboard-milindmalshe_files/jquery.mtz.monthpicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/Dashboard-milindmalshe_files/jquery.ui-contextmenu.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/Dashboard-milindmalshe_files/jquery.ui.core.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/Dashboard-milindmalshe_files/jquery.ui.datepicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/Dashboard-milindmalshe_files/jsapi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/Dashboard-milindmalshe_files/material.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/Dashboard-milindmalshe_files/orgchart.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/Dashboard-milindmalshe_files/saved_resource" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/Dashboard-milindmalshe_files/select2.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/Dashboard-milindmalshe_files/select2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/Dashboard-milindmalshe_files/sweetalert.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/Dashboard-milindmalshe_files/sweetalert.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/Dashboard-milindmalshe_files/tooltip.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/Dashboard-milindmalshe_files/ui+en,table+en,controls+en,charteditor+en.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/Dashboard-milindmalshe_files/ui.dynatree.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/dashboard.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/infocision_custom_css/._fair_style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/infocision_custom_css/fair_style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/infocision_custom_js/._custom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/infocision_custom_js/custom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/media/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/media/._Infocision-Logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/media/._shield.hidoctor.me.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/media/Infocision-Logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/media/shield.hidoctor.me.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geo_master/media/3months.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geo_master/media/6months.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geo_master/media/chennai3rbm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geo_master/media/chennai6rbm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geo_master/media/m3chennidash.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geo_master/media/m3dash.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geo_master/media/m6chennidash.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geo_master/media/m6dash.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geo_master/media/vellore3pie.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geo_master/media/vellore6pie.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphs/chennai3rbm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphs/chennai6rbm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphs/m3chennidash.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphs/m3dash.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphs/m6chennidash.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphs/m6dash.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphs/vellore3pie.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphs/vellore6pie.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/report/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/serializers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/Dashboard-milindmalshe.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/Dashboard-milindmalshe_files/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/Dashboard-milindmalshe_files/._6642" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/Dashboard-milindmalshe_files/._AdminDashboard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/Dashboard-milindmalshe_files/._Customej2Styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/Dashboard-milindmalshe_files/._Dashboard.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/Dashboard-milindmalshe_files/._RegionTree.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/Dashboard-milindmalshe_files/._TopBannerWithMenu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/Dashboard-milindmalshe_files/._Tree.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/Dashboard-milindmalshe_files/._UserTree.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/Dashboard-milindmalshe_files/._WebApiAjaxHandler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/Dashboard-milindmalshe_files/._ajaxHandler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/Dashboard-milindmalshe_files/._annotatedtimeline.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/Dashboard-milindmalshe_files/._bootbox.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/Dashboard-milindmalshe_files/._bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/Dashboard-milindmalshe_files/._bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/Dashboard-milindmalshe_files/._bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/Dashboard-milindmalshe_files/._bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/Dashboard-milindmalshe_files/._common12.7.0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/Dashboard-milindmalshe_files/._ej2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/Dashboard-milindmalshe_files/._font-awesome.min(1).css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/Dashboard-milindmalshe_files/._font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/Dashboard-milindmalshe_files/._format+en,default+en,ui+en,table+en,orgchart+en,motionchart+en,gauge+en,annotatedtimeline+en,imagechart+en,controls+en,corechart+en,charteditor+en.I.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/Dashboard-milindmalshe_files/._hidoctor.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/Dashboard-milindmalshe_files/._imagesparkline.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/Dashboard-milindmalshe_files/._jquery-3.2.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/Dashboard-milindmalshe_files/._jquery-migrate-1.3.0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/Dashboard-milindmalshe_files/._jquery-ui-1.8.21.custom.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/Dashboard-milindmalshe_files/._jquery-ui.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/Dashboard-milindmalshe_files/._jquery.dynatree.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/Dashboard-milindmalshe_files/._jquery.mtz.monthpicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/Dashboard-milindmalshe_files/._jquery.ui-contextmenu.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/Dashboard-milindmalshe_files/._jquery.ui.core.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/Dashboard-milindmalshe_files/._jquery.ui.datepicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/Dashboard-milindmalshe_files/._jsapi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/Dashboard-milindmalshe_files/._material.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/Dashboard-milindmalshe_files/._orgchart.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/Dashboard-milindmalshe_files/._saved_resource" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/Dashboard-milindmalshe_files/._select2.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/Dashboard-milindmalshe_files/._select2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/Dashboard-milindmalshe_files/._shield.hidoctor.me.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/Dashboard-milindmalshe_files/._sweetalert.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/Dashboard-milindmalshe_files/._sweetalert.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/Dashboard-milindmalshe_files/._tooltip.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/Dashboard-milindmalshe_files/._ui+en,table+en,controls+en,charteditor+en.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/Dashboard-milindmalshe_files/._ui.dynatree.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/Dashboard-milindmalshe_files/6642" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/Dashboard-milindmalshe_files/AdminDashboard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/Dashboard-milindmalshe_files/Customej2Styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/Dashboard-milindmalshe_files/Dashboard.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/Dashboard-milindmalshe_files/RegionTree.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/Dashboard-milindmalshe_files/TopBannerWithMenu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/Dashboard-milindmalshe_files/Tree.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/Dashboard-milindmalshe_files/UserTree.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/Dashboard-milindmalshe_files/WebApiAjaxHandler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/Dashboard-milindmalshe_files/ajaxHandler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/Dashboard-milindmalshe_files/annotatedtimeline.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/Dashboard-milindmalshe_files/bootbox.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/Dashboard-milindmalshe_files/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/Dashboard-milindmalshe_files/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/Dashboard-milindmalshe_files/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/Dashboard-milindmalshe_files/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/Dashboard-milindmalshe_files/common12.7.0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/Dashboard-milindmalshe_files/ej2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/Dashboard-milindmalshe_files/font-awesome.min(1).css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/Dashboard-milindmalshe_files/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/Dashboard-milindmalshe_files/format+en,default+en,ui+en,table+en,orgchart+en,motionchart+en,gauge+en,annotatedtimeline+en,imagechart+en,controls+en,corechart+en,charteditor+en.I.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/Dashboard-milindmalshe_files/hidoctor.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/Dashboard-milindmalshe_files/imagesparkline.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/Dashboard-milindmalshe_files/jquery-3.2.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/Dashboard-milindmalshe_files/jquery-migrate-1.3.0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/Dashboard-milindmalshe_files/jquery-ui-1.8.21.custom.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/Dashboard-milindmalshe_files/jquery-ui.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/Dashboard-milindmalshe_files/jquery.dynatree.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/Dashboard-milindmalshe_files/jquery.mtz.monthpicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/Dashboard-milindmalshe_files/jquery.ui-contextmenu.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/Dashboard-milindmalshe_files/jquery.ui.core.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/Dashboard-milindmalshe_files/jquery.ui.datepicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/Dashboard-milindmalshe_files/jsapi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/Dashboard-milindmalshe_files/material.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/Dashboard-milindmalshe_files/orgchart.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/Dashboard-milindmalshe_files/saved_resource" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/Dashboard-milindmalshe_files/select2.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/Dashboard-milindmalshe_files/select2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/Dashboard-milindmalshe_files/shield.hidoctor.me.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/Dashboard-milindmalshe_files/sweetalert.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/Dashboard-milindmalshe_files/sweetalert.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/Dashboard-milindmalshe_files/tooltip.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/Dashboard-milindmalshe_files/ui+en,table+en,controls+en,charteditor+en.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/Dashboard-milindmalshe_files/ui.dynatree.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/dashboardrbm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._AjaxGlobalHandler.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._CommonDateDetails.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._E-Detailing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._FAQ.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._FormMange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._GenieHelp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._HiDOCTOR_Genie_200x50.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._HiDoctorGenie.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._HiDoctorGenie.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._Hidoctor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._Hidoctor1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._Kangle_Simple_Logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._Logo_SwaaS.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._Profile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._RegionTree.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._Splashscreen.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._TableTools.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._Tree.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._UserTree.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._ZeroClipboard.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._ajax-loader(1).gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._all.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._annotatedtimeline.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._autocomplete.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._bootbox.min.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._bootstrap.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._calendar.min.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._circle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._common12.7.0.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._demo_table.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._dropzone.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._ej2.min.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._en-6f2d1bc1471898f3c6a251b65acd145c.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._fdwidget-27af7c139dd66993736c084262299527.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._format+en_GB,default+en_GB,ui+en_GB,table+en_GB,orgchart+en_GB,motionchart+en_GB,gauge+en_GB,annotatedtimeline+en_GB,imagechart+en_GB,controls+en_GB,corechart+en_GB,charteditor+en_GB.I.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._freshwidget(1).css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._freshwidget.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._freshwidget.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._fullcalendar.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._gistfile1.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._gs.nav.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._gsAll.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._hi-doctor-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._hidoctor.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._home.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._html2canvas.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._ie_hacks-1cf80e44a736a1827954bb2af081bb00.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._imagesparkline.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._jquery-1.7.2.min.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._jquery-blink.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._jquery-te-1.4.0.min.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._jquery-ui-1.8.11.min.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._jquery-ui-1.8.21.custom.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._jquery.autocomplete.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._jquery.autocomplete.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._jquery.blockUI.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._jquery.bootpag.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._jquery.bxslider.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._jquery.bxslider.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._jquery.contextMenu-custom.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._jquery.contextMenu.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._jquery.cookie.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._jquery.dataTables.columnFilter.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._jquery.dataTables.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._jquery.dataTables.rowGrouping.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._jquery.dynatree.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._jquery.form.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._jquery.li-scroller.1.0.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._jquery.msgbox.min.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._jquery.mtz.monthpicker.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._jquery.multiselect.filter.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._jquery.multiselect.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._jquery.nicescroll.min.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._jquery.placeholder.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._jquery.simplePagination.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._jquery.sparkline.min.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._jquery.tablePagination.0.5.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._jquery.tokeninput.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._jquery.tools.min.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._jquery.ui.all.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._jquery.ui.timepicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._jquery.ui.timepicker.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._jsapi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._json2.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._jsonpath-0.8.0.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._li-scroller.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._load(1).gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._load.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._material.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._mobile.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._mobile1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._modalpopup.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._msg-box.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._muslider_style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._new.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._orgchart.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._pattern-0b00fdbf2dba02db525af73f62ba40a8.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._popup.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._process.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._redactor-adf8b787353cd9053a79e693e45a3fb9.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._responsive_widget-9e24c64f2b86837e928be3c2747b4839.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._salesdrive.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._saved_resource" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._saved_resource(1).html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._saved_resource.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._shield.hidoctor.me.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._slidereveal.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._style1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._token-input-facebook.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._token-input.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._trash1_16x16.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._ui+en_GB,table+en_GB,controls+en_GB,charteditor+en_GB.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._ui.dynatree.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._user.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/._widget-79a1a443f584a9865b78960acb935170.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/AjaxGlobalHandler.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/CommonDateDetails.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/E-Detailing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/FAQ.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/FormMange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/GenieHelp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/HiDOCTOR_Genie_200x50.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/HiDoctorGenie.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/HiDoctorGenie.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/Hidoctor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/Hidoctor1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/Kangle_Simple_Logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/Logo_SwaaS.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/Profile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/RegionTree.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/Splashscreen.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/TableTools.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/Tree.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/UserTree.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/ZeroClipboard.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/ajax-loader(1).gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/all.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/annotatedtimeline.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/autocomplete.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/bootbox.min.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/bootstrap.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/calendar.min.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/circle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/common12.7.0.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/demo_table.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/dropzone.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/ej2.min.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/en-6f2d1bc1471898f3c6a251b65acd145c.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/fdwidget-27af7c139dd66993736c084262299527.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/format+en_GB,default+en_GB,ui+en_GB,table+en_GB,orgchart+en_GB,motionchart+en_GB,gauge+en_GB,annotatedtimeline+en_GB,imagechart+en_GB,controls+en_GB,corechart+en_GB,charteditor+en_GB.I.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/freshwidget(1).css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/freshwidget.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/freshwidget.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/fullcalendar.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/gistfile1.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/gs.nav.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/gsAll.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/hi-doctor-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/hidoctor.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/home.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/html2canvas.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/ie_hacks-1cf80e44a736a1827954bb2af081bb00.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/imagesparkline.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/jquery-1.7.2.min.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/jquery-blink.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/jquery-te-1.4.0.min.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/jquery-ui-1.8.11.min.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/jquery-ui-1.8.21.custom.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/jquery.autocomplete.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/jquery.autocomplete.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/jquery.blockUI.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/jquery.bootpag.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/jquery.bxslider.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/jquery.bxslider.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/jquery.contextMenu-custom.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/jquery.contextMenu.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/jquery.cookie.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/jquery.dataTables.columnFilter.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/jquery.dataTables.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/jquery.dataTables.rowGrouping.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/jquery.dynatree.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/jquery.form.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/jquery.li-scroller.1.0.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/jquery.msgbox.min.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/jquery.mtz.monthpicker.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/jquery.multiselect.filter.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/jquery.multiselect.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/jquery.nicescroll.min.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/jquery.placeholder.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/jquery.simplePagination.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/jquery.sparkline.min.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/jquery.tablePagination.0.5.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/jquery.tokeninput.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/jquery.tools.min.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/jquery.ui.all.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/jquery.ui.timepicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/jquery.ui.timepicker.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/jsapi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/json2.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/jsonpath-0.8.0.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/li-scroller.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/load(1).gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/load.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/material.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/mobile.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/mobile1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/modalpopup.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/msg-box.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/muslider_style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/new.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/orgchart.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/pattern-0b00fdbf2dba02db525af73f62ba40a8.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/popup.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/process.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/redactor-adf8b787353cd9053a79e693e45a3fb9.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/responsive_widget-9e24c64f2b86837e928be3c2747b4839.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/salesdrive.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/saved_resource" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/saved_resource(1).html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/saved_resource.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/shield.hidoctor.me.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/slidereveal.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/style1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/token-input-facebook.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/token-input.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/trash1_16x16.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/ui+en_GB,table+en_GB,controls+en_GB,charteditor+en_GB.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/ui.dynatree.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/user.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/fairshare_sign_in/widget-79a1a443f584a9865b78960acb935170.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/graph.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/graph2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/graph3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/graph4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/graph5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/graph6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/graph7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/graph8.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/infocision_custom_css/._fair_style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/infocision_custom_css/fair_style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/infocision_custom_js/._custom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/infocision_custom_js/custom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/login_old.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/media/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/media/._3months.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/media/._6months.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/media/._Infocision-Logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/media/3months.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/media/6months.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/media/Infocision-Logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/media/chennai3rbm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/media/chennai6rbm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/media/m3chennidash.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/media/m3dash.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/media/m6chennidash.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/media/m6dash.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/media/shield.hidoctor.me.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/media/vellore3pie.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/media/vellore6pie.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/month.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/sign_in1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/sign_in_me.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/templates/table1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/report/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/report/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/report/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/abm.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/abm.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/3months.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/6months.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/chennai3rbm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/chennai6rbm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/m3chennidash.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/m3dash1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/m6chennidash.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/m6dash.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/vellore3pie.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/vellore6pie.png" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1VIZqhveLpthOy2uEnkNHUET7t0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="ignore.virus.scanning.warn.message" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../New folder/basics" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\geo_master\report\templates" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\geo_master\report\templates" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.serializers">
+    <configuration name="demos" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="geo_master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/geo_master" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/geo_master/demos.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="serializers" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="geo_master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/report" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/report/serializers.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tests" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="geo_master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/report" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/report/tests.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="urls (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="geo_master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/report" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/report/urls.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="geo_master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/report" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/report/views.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.serializers" />
+        <item itemvalue="Python.tests" />
+        <item itemvalue="Python.views" />
+        <item itemvalue="Python.demos" />
+        <item itemvalue="Python.urls (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0be57268-9301-4206-b62c-f8fa3f765006" name="Default Changelist" comment="" />
+      <created>1576942761582</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576942761582</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="503" y="65" key="#tests" timestamp="1578468200444">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="503" y="65" key="#tests/0.0.1536.824@0.0.1536.824" timestamp="1578468200444" />
+    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1577291052500">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1577291052500" />
+    <state x="549" y="170" key="FileChooserDialogImpl" timestamp="1581323426633">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1581323426633" />
+    <state width="1515" height="99" key="GridCell.Tab.0.bottom" timestamp="1581389777315">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="99" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581389777315" />
+    <state width="1515" height="99" key="GridCell.Tab.0.center" timestamp="1581389777314">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="99" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581389777314" />
+    <state width="1515" height="99" key="GridCell.Tab.0.left" timestamp="1581389777314">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="99" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581389777314" />
+    <state width="1515" height="99" key="GridCell.Tab.0.right" timestamp="1581389777314">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="99" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581389777314" />
+    <state x="279" y="57" key="SettingsEditor" timestamp="1578763331862">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="279" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1578763331862" />
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2" timestamp="1577771486111">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1577771486111" />
+    <state x="477" y="239" key="com.intellij.ide.util.TipDialog" timestamp="1580791818749">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="477" y="239" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1580791818749" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1577041351718">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1577041351718" />
+  </component>
+</project>

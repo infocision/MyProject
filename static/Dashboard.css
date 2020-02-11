@@ -1,0 +1,23 @@
+﻿  @media only screen and (max-width: 767px) {
+     #timeLag{
+         margin-top: 15px;
+     }
+     #timeInvestment
+     {
+         margin-top: 22px;
+     }
+     #dvSSApprovalLock,#dvTpPendingLock,#dvNonEnter,#dvTPApprovalLock,#dvTPUnavalibleLock{
+         margin-top:30px;
+     }
+#dvDrCoverageBarChat,#dvDrCompliaceBarChat,#dvDrMissedChat
+{
+    margin-top:0px!important;
+}
+#drmissedtab{
+    height: 330px;
+}
+#sidebar-wrapper{
+    height: 94%;
+}
+    }
+
